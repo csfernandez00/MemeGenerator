@@ -36,12 +36,12 @@ function App() {
                 <h1>Meme Generator!</h1>
                 <select onChange={pickImg}>
                     <option>Pick an image</option>
-                    <option>Fire</option>
-                    <option>Futurama</option>
-                    <option>History</option>
-                    <option>Matrix</option>
-                    <option>Philosoraptor</option>
-                    <option>Smart</option>
+                    <option>fire</option>
+                    <option>futurama</option>
+                    <option>history</option>
+                    <option>matrix</option>
+                    <option>philosoraptor</option>
+                    <option>smart</option>
                 </select><br/>
 
                 <input onChange={onChangeLinea1} type="text" placeholder='Line 1...'></input><br/>
