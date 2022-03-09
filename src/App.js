@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import html2canvas from 'html2canvas'
 
+
 function App() {
 
     const [linea1, setLinea1] = useState('');
