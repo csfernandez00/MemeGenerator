@@ -27,6 +27,35 @@ function App() {
         });
     }
 
+    let clase1;
+    if(linea1.length <= 20){
+        clase1=  'linea1 size1'
+    }
+    if(linea1.length > 20){
+        clase1 =  'linea1 size2'
+    }
+    if(linea1.length > 40){
+        clase1 =  'linea1 size3'
+    }
+    if(linea1.length > 45){
+        clase1 =  'linea1 size4'
+    }
+
+    let clase2;
+    if(linea2.length <= 20){
+        clase2 =  'linea2 size1'
+    }
+    if(linea2.length > 20){
+        clase2 =  'linea2 size2'
+    }
+    if(linea2.length > 40){
+        clase2 =  'linea2 size3'
+    }
+    if(linea2.length > 45){
+        clase2 =  'linea2 size4'
+    }
+
+
     return ( 
         <div className = "App" >
             
@@ -47,9 +76,9 @@ function App() {
 
                 <div className='preview'>
                     <div className='meme' id='meme'>
-                        <span className='linea1'>{linea1}</span><br/>
+                        <span className={clase1}>{linea1}</span><br/>
                         <img src={require(`./img/${img}.jpg`)} alt=''/>
-                        <span className='linea2'>{linea2}</span>
+                        <span className={clase2}>{linea2}</span>
                     </div>
                 </div>
 
