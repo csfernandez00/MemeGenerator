@@ -26,7 +26,7 @@ function App() {
             link.click();
         });
     }
-    
+
     return ( 
         <div className = "App" >
             
