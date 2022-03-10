@@ -1,21 +1,15 @@
 {
   "files": {
     "main.css": "/MemeGenerator/static/css/main.aa3c47a6.css",
-    "main.js": "/MemeGenerator/static/js/main.432f901c.js",
+    "main.js": "/MemeGenerator/static/js/main.f11b058a.js",
     "static/js/787.132aac7f.chunk.js": "/MemeGenerator/static/js/787.132aac7f.chunk.js",
-    "static/media/fire.jpg": "/MemeGenerator/static/media/fire.576e974551eaa5148499.jpg",
-    "static/media/futurama.jpg": "/MemeGenerator/static/media/futurama.afceac5ed7218ba68d43.jpg",
-    "static/media/history.jpg": "/MemeGenerator/static/media/history.4af07ffecb5a3211f29f.jpg",
-    "static/media/matrix.jpg": "/MemeGenerator/static/media/matrix.06816aa286902e5eb7d1.jpg",
-    "static/media/philosoraptor.jpg": "/MemeGenerator/static/media/philosoraptor.a38a976b97c0075a10b9.jpg",
-    "static/media/smart.jpg": "/MemeGenerator/static/media/smart.505af3b27b8f8c5ddd06.jpg",
     "index.html": "/MemeGenerator/index.html",
     "main.aa3c47a6.css.map": "/MemeGenerator/static/css/main.aa3c47a6.css.map",
-    "main.432f901c.js.map": "/MemeGenerator/static/js/main.432f901c.js.map",
+    "main.f11b058a.js.map": "/MemeGenerator/static/js/main.f11b058a.js.map",
     "787.132aac7f.chunk.js.map": "/MemeGenerator/static/js/787.132aac7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa3c47a6.css",
-    "static/js/main.432f901c.js"
+    "static/js/main.f11b058a.js"
   ]
 }
