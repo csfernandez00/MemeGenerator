@@ -7,7 +7,6 @@ function App() {
     const [linea1, setLinea1] = useState('');
     const [linea2, setLinea2] = useState('');
     const [img, setImg] = useState('fire');
-
     const onChangeLinea1 = function(e){
         setLinea1(e.target.value);
     }
@@ -26,7 +25,6 @@ function App() {
             link.click();
         });
     }
-
     let clase1;
     if(linea1.length <= 20){
         clase1=  'linea1 size1'
@@ -40,7 +38,6 @@ function App() {
     if(linea1.length > 45){
         clase1 =  'linea1 size4'
     }
-
     let clase2;
     if(linea2.length <= 20){
         clase2 =  'linea2 size1'
@@ -73,6 +70,7 @@ function App() {
 
                 <input onChange={onChangeLinea1} type="text" placeholder='Line 1...' maxLength={70}></input><br/>
                 <input onChange={onChangeLinea2} type="text" placeholder='Line 2...' maxLength={70}></input><br/>
+                <h5>Max 70 characters.</h5>
 
                 <div className='preview'>
                     <div className='meme' id='meme'>
