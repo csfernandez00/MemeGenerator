@@ -7,7 +7,7 @@ function App() {
 
     const [linea1, setLinea1] = useState('');
     const [linea2, setLinea2] = useState('');
-    const [img, setImg] = useState('');
+    const [img, setImg] = useState('fire');
 
     const onChangeLinea1 = function(e){
         setLinea1(e.target.value);
