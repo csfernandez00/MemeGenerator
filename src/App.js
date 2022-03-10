@@ -50,7 +50,7 @@ function App() {
                 <div className='preview'>
                     <div className='meme' id='meme'>
                         <span className='linea1'>{linea1}</span><br/>
-                        <img src={'./img/'+ img +'.jpg'} alt=''/>
+                        <img src={'./images/'+ img +'.jpg'} alt=''/>
                         <span className='linea2'>{linea2}</span>
                     </div>
                 </div>
