@@ -89,10 +89,14 @@ h1{
   font-size: 40px;
   color: #fff;
   text-shadow: 2px 0px 0px #000, -2px 0px 0px #000, 0px 2px 0px #000, 0px -2px 0px #000, -1px -1px #000, 1px 1px #000, 1px -1px #000, -1px 1px #000;
-  width: 100%;
-  left: 0px;
+  word-wrap: break-word;
+  margin-left: 1rem;
+  margin-right: 1rem; 
   margin-bottom: 310px;
   min-width: 385px;
+  max-height: 96px;
+  max-width: 500px;
+  overflow-wrap: break-word;
 }
 
 .meme img{
@@ -149,23 +153,38 @@ a{
   color: #fff;
 }
 
+
+
+
+
 @media(min-width: 500px) {
   .meme span{
-    margin-bottom: 400px;
+    margin-bottom: 380px;
+    width: 90%;
+    max-height: 96px;
+    max-width: 500px;
   }
 
   .meme .linea2{
-  margin-top: 800px;
-}
+  margin-top: 760px;
+  }
+
 }
 
-@media(min-width: 445px) and (max-width: 500px) {
+@media(min-width: 470px) and (max-width: 500px) {
   .meme span{
     margin-bottom: 350px;
+    line-height: 1.6rem;
   }
 
   .meme .linea2{
   margin-top: 700px;
+  }
+}
+
+@media(min-width: 400px) and (max-width: 460px) {
+  .meme span{
+    line-height: 1.4rem;
   }
 }
 
@@ -178,4 +197,11 @@ a{
   .preview{
     margin: 2rem auto .8rem;
   }
+  .meme span{
+    line-height: 1.3rem;
+    max-height: 50px;
+  }
+  .meme .linea2{
+    margin-top: 600px;
+    }
 }
